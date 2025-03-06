@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block; /* Keeps menu items in a row */
+  display: inline-block;
   margin: 0 20px;
 }
 
@@ -90,50 +90,52 @@ nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
   .logo {
-      transform: translateX(30%);
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
+      transform: translateX(0);
   }
 
   .nav {
-      text-align: right;
-      transform: translateY(-250%);
+      text-align: center;
+      transform: translateY(0);
+  }
+
+  nav ul {
+      padding: 0;
+      text-align: center;
   }
 
   nav ul li {
-      display: inline-block;
-      margin: 0 20px;
+      display: block;
+      margin: 10px 0;
+  }
+
+  nav ul li a {
+      font-size: 24px;
   }
 
   .page-content {
-      width: 800px;
-      height: 800px;
+      width: 90%;
+      height: auto;
   }
 }
 
 @media screen and (max-width: 480px) {
   .logo {
-      transform: translateX(30%);
-      width: 200px;
-      height: 200px;
+      width: 120px;
+      height: 120px;
   }
 
-  .nav {
-      text-align: right;
-      transform: translateY(-250%);
-  }
-
-  nav ul li {
-      display: inline-block;
-      margin: 0 20px;
+  nav ul li a {
+      font-size: 20px;
   }
 
   .page-content {
-      width: 800px;
-      height: 800px;
+      width: 95%;
+      height: auto;
   }
 
   .footer a {
-      font-size: 28px;
+      font-size: 24px;
   }
 }
