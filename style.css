@@ -1,0 +1,83 @@
+body {
+    background-color: #7f7f7f;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    animation: float 3s ease-in-out infinite;
+    margin-top: 40px;
+    transform: translateX(30%);
+}
+
+.nav {
+    text-align: right;
+    transform: translateY(-250%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(68, 15, 225);
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffe66d;
+  }
+
+.page-content {
+    width: 800px;
+    height: 800px;
+    text-align: center;
+}
+.footer{
+  text-align: center;
+}
+
+.footer a{
+  margin:0 12px;
+  text-decoration:none;
+  font-size:28px;
+  transition:color 0.3s,transform 0.3s
+}
+.footer a.facebook{
+  color:#3b5998
+}
+.footer a.instagram{
+  color:#bc2a8d
+}
+.footer a.github{
+  color:#ddd
+}
+.footer a:hover{
+  color:gold;
+  transform:scale(1.2)
+}
+
+.content-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
