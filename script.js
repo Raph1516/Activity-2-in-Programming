@@ -26,7 +26,7 @@ function changeContent(page) {
     } else if (page === "html") {
         contentDiv.innerHTML = `
             <h1>HTML</h1>
-            <img src="images/Html.png" alt="HTML Logo" class="content-image">
+            <img src="images/HTML.png" alt="HTML Logo" class="content-image">
             <h2>HTML (HyperText Markup Language) is the standard language used to create web pages. It provides the basic structure of a website using elements like headings, paragraphs, images, and links.</h2>
         `;
     } else if (page === "css") {
